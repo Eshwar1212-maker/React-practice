@@ -5,7 +5,7 @@ interface useReducerState {
   count: number
   showText: boolean
 }
-type useReducerAction{
+type useReducerAction = {
    type: "increment" | "toggle"
 
 }
